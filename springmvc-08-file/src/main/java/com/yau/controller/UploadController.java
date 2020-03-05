@@ -22,8 +22,8 @@ public class UploadController {
         String fileName = file.getOriginalFilename();
         System.out.println("Original File Name: " + fileName);
 
-        /* WAR 包的根目錄下的 happy 文件夾*/
-        File dest = new File(request.getServletContext().getRealPath("/happy"));
+        /* 把文件存放的路徑定為 WAR 包的根目錄下的 happy 文件夾，同時保留原始文件名*/
+        File dest = new File(request.getServletContext().getRealPath("/happy/") + fileName);
 
         /* happy 文件夾不存在則創建它*/
         if (!dest.exists()) {
@@ -33,7 +33,7 @@ public class UploadController {
         System.out.println("absolute path: " + dest.getAbsolutePath());
         try {
             /*用戶上傳的文件傳輸到服務器*/
-            file.transferTo(new File(dest + "/" + fileName));
+            file.transferTo(dest);
         } catch (IOException e) {
             e.printStackTrace();
             return "Failed";
