@@ -1,23 +1,18 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="springmvc-06-ajax:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/springmvc_06_ajax_war_exploded</output-path>
+  <artifact type="exploded-war" name="springmvc-07-interceptor:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/springmvc_07_interceptor_war_exploded</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="springmvc-06-ajax" />
+          <element id="module-output" name="springmvc-07-interceptor" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.2.4.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.2.4.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.2.4.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.2.4.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.2.4.RELEASE" />
-          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.5.4" />
-          <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:2.0.3" />
-          <element id="library" level="project" name="Maven: org.postgresql:postgresql:42.2.10" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:5.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:5.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
@@ -27,7 +22,7 @@
           <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.62" />
         </element>
       </element>
-      <element id="javaee-facet-resources" facet="springmvc-06-ajax/web/Web" />
+      <element id="javaee-facet-resources" facet="springmvc-07-interceptor/web/Web" />
     </root>
   </artifact>
 </component>
